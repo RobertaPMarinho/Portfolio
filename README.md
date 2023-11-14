@@ -1,3 +1,3 @@
-# Challenge ONE | Front End - Portfólio
+# Portfólio
 
-Este projeto foi desenvolvido em um Challenge Alura.
+Este projeto foi desenvolvido em um Challenge Alura, formação Front-end.
