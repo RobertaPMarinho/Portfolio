@@ -1,0 +1,38 @@
+.academic__courses__box {
+  display: flex;
+  background: var(--cor-de-fundo);
+  gap: 10px;
+  padding: 16px;
+  text-align: center;
+  transition: 0.5s;
+  width: 210px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.academic__courses__box:hover {
+  background: var(--cor-de-about);
+  border-radius: 10px;
+  -moz-box-shadow: 0px 20px 20px #86CEEB;
+  -webkit-box-shadow: 0px 20px 20px #86CEEB;
+}
+
+.centered {
+  text-align: center;
+}
+
+/*MOBILE*/
+@media screen and (min-width:0) {
+
+}
+
+/*TABLET*/
+@media screen and (min-width:768px) {
+  
+}
+
+/*DESKTOP*/
+@media screen and (min-width:1024px) {
+  
+}

@@ -1,0 +1,26 @@
+.skills__title {
+  color: var(--cor-de-skills);
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 25.83px;
+  text-align: center;
+}
+
+/*MOBILE*/
+@media screen and (min-width:0) {
+
+}
+
+/*TABLET*/
+@media screen and (min-width:768px) {
+  
+}
+
+/*DESKTOP*/
+@media screen and (min-width:1024px) {
+  .skills__title {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 37.57px;
+  }
+}

@@ -1,0 +1,29 @@
+/*MOBILE*/
+@media screen and (min-width:0) {
+  .menu {
+  align-items: center;
+  display:flex;
+  padding: 16px;
+  justify-content: space-between;
+  }
+}
+
+/*TABLET*/
+@media screen and (min-width:768px) {
+  .menu {
+  align-items: center;
+  display:flex;
+  padding: 16px 32px 16px 32px;
+  justify-content: space-between;
+  }
+}
+
+/*DESKTOP*/
+@media screen and (min-width:1024px) {
+  .menu {
+  display:flex;
+  margin: 0 32px 0 32px;
+  padding: 32px 0 32px 0;
+  justify-content: space-between;
+  }
+}

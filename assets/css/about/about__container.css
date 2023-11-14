@@ -1,0 +1,26 @@
+/*MOBILE*/
+@media screen and (min-width:0) {
+  .about__container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+
+/*TABLET*/
+@media screen and (min-width:768px) {
+  .about__container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+
+/*DESKTOP*/
+@media screen and (min-width:1024px) {
+  .about__container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+}

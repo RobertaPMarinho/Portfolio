@@ -1,0 +1,48 @@
+.title__network {
+  display: flex;
+}
+
+.title__network__item:hover {
+  color: rgb(79, 74, 139);
+  font-weight: bold;
+}
+
+/*MOBILE*/
+@media screen and (min-width:0) {
+  .title__network {
+    gap: 8px;
+  }
+  
+  .title__network__item {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 16.44px;
+  }
+}
+
+/*TABLET*/
+@media screen and (min-width:768px) {
+  .title__network {
+    gap: 32px;
+  }
+  
+  .title__network__item {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.78px;
+  }
+}
+
+/*DESKTOP*/
+@media screen and (min-width:1024px) {
+  .title__network {
+    gap: 32px;
+  }
+  
+  .title__network__item {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.78px;
+  }
+  
+}

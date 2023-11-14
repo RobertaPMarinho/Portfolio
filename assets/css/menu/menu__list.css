@@ -1,0 +1,44 @@
+.menu__list {
+  display: flex;
+  height: 88px;
+  align-items: center;
+}
+
+.menu__list__item {
+  color: var(--cor-de-link);
+  margin-right: 32px;
+  font-weight: 500;
+  
+}
+
+.menu__list__item:hover {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.menu__list__item__contato {
+  font-weight: bold;
+}
+
+/*MOBILE*/
+@media screen and (min-width: 0) {
+  
+}
+
+/*TABLET*/
+@media screen and (min-width: 768px) {
+  .menu__list {
+    display: none;
+  }
+}
+
+/*DESKTOP*/
+@media screen and (min-width: 1024px) {
+  .menu__list__item__contato {
+    display: flex;
+  }
+
+  .menu__list {
+    display: flex;
+  }
+}

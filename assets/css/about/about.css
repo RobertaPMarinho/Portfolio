@@ -1,0 +1,58 @@
+.about {
+  background: var(--cor-de-about);
+}
+  
+/*MOBILE*/
+@media screen and (min-width:0) {
+  .about {
+    display: flex;
+    padding: 16px;
+    gap: 10px;
+  }
+
+  .about__title {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 25.83px;
+  }
+  .about__paragraph {
+    font-size: 14px;
+    line-height: 16.44px;
+  }
+}
+
+/*TABLET*/  
+@media screen and (min-width:768px) {
+  .about {
+    padding: 32px;
+    margin: 10px;
+  }
+
+  .about__title {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 25.83px;
+  }
+  .about__paragraph {
+    font-size: 14px;
+    line-height: 16.44px;
+  }
+}
+
+/*DESKTOP*/  
+@media screen and (min-width:1024px) {
+  .about {
+    gap: 16px;
+  }
+
+  .about__title {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37.57px;
+  }
+  .about__paragraph {
+    font-size: 16px;
+    line-height: 18.78px;
+
+  }
+}
